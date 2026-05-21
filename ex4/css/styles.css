@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+body {
+  text-align: center;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  color: #333;
+  background-color: white;
+  border-bottom: 5px solid;
+  border-bottom-width: thin;
+  border-top: 5px solid;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-indent: 25px;
+  margin-bottom: 20px;
+  line-height: 2;
+  padding-inline: 50px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  color: #333;
+  border-bottom: 5px solid;
+  border-bottom-width: thin;
+  border-top: 5px solid;
+  border-color: #333;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 10px;
+  border: solid;
+  border-color: #333;
+}
+
+.graph {
+  height: 400px;
+  width: 800px;
+}
+
+.family {
+  height: 400px;
+  width: 400px;
+}
+
+.bank {
+  height: 300px;
+  width: 500px;
+}
+
+.step-one {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+}
+
+.step-one p {
+	flex: 1;
+	min-width: 150px;
+}
+
+.step-five {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+
+.paras {
+	display: flex;
+	flex-direction: column;
+}
+
+.image-two p {
+	white-space: nowrap;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+	text-align: right;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}

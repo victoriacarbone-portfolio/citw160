@@ -1,0 +1,85 @@
+:root {
+  --main-bg: #f0f4f8;
+  --main-text: #333333;
+  --accent-color: #e94f37;
+  --font-stack: 'Roboto', sans-serif;
+  --heading-font: 'Merriweather', serif;
+  --spacing: 1.8rem;
+  --section-padding: 2rem;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  font-family: var(--font-stack);
+  margin: 0;
+  padding: var(--spacing);
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  margin: var(--spacing);
+}
+
+.intro, .example, .tips, .example-box {
+  background-color: #ffffff;
+  padding: var(--section-padding);
+  margin-bottom: var(--spacing);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--accent-color);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul, ol {
+  margin-left: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: 2px solid var(--accent-color);
+  border-radius: var(--border-radius);
+  padding: var(--section-padding);
+  box-shadow: var(--box-shadow);
+  background-color: #f9fafb;
+  margin-top: var(--spacing);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

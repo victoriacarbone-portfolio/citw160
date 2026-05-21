@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Art Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Accessible Art Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Welcome</h2>
+      <p>This page demonstrates accessibility techniques using my artwork.</p>
+
+      <img src="images/paper_sketch_rabbit.jpg" alt="Detailed graphite sketch of a rabbit’s head drawn on a Christmas card" loading="lazy" width="600">
+
+      <img src="images/digital_art_owls.webp" alt="Digital illustration of two Eastern Screech Owls, gray and red morphs, perched on branches under a full moon with colorful crystals emerging from the ground" loading="lazy" width="600">
+
+    </section>
+
+    <section>
+      <h2>Feedback</h2>
+      <form>
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Used WAVE to evaluate accessibility. Confirmed images have descriptive alt text and semantic HTML improves navigation for screen readers. -->
+
+  </main>
+
+  <footer>
+    <p><em>Original artwork created by me</em></p>
+    <p>&copy; Lansing Community College 2026 CITW160</p>
+	<p>Try out the accessible contact form: <a href="ex12a/index.html">Go to Accessible Form</a></p>
+	<p><a href="../index.html">Return to HUB</a></p>
+  </footer>
+
+</body>
+</html>

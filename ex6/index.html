@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 6 - Box Model & Floats</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>Box Model & Floats Demo</h1>
+
+
+	<div class="box model">
+		<h3>The CSS Box Model</h3>
+		<p>The CSS box model is the way browsers calculate the 
+		size and spacing of elements on a page. Every element is 
+		treated like a rectangular box made up of content, padding, 
+		a border, and a margin.</p>
+		<p>The content is the actual text or image inside the element. 
+		Padding adds space between the content and the border, the 
+		border wraps around the padding and content, and the margin 
+		controls the space outside the element. Understanding how 
+		these layers work together makes it much easier to control 
+		layout and spacing in CSS.</p>
+	</div>
+		
+	<div class="clearfix group">	
+		<div class="box">
+			<h3>Padding, Borders, and Margins</h3>
+			<p>Padding, borders, and margins are all used to control 
+			spacing, but they affect elements in different ways. Padding 
+			increases the space inside the element, which also expands 
+			the background color. Borders sit around the padding and 
+			content and help define the edges of an element. Margins add space 
+			outside the element and control how close it sits to other elements 
+			on the page.</p>
+		</div>
+		<div class="box">
+		<h3>Floating Elements</h3>
+			<p>Floating elements allows boxes to be positioned next to 
+			each other instead of stacking vertically. In this layout, 
+			two boxes are floated to demonstrate how float affects positioning 
+			and document flow.</p>
+			<p>When an element is floated, it is removed from the normal 
+			flow of the page. This can cause layout issues if the parent 
+			container does not account for the floated elements, which is 
+			why clearing floats is necessary in many layouts.</p>
+		</div>
+	</div>
+	
+	<div class="box clearing">
+		<h3>Clearing Floats with Clearfix</h3>
+		<p>Because floated elements are taken out of the normal 
+		document flow, their parent container can collapse and 
+		appear as if it has no height. This is a common issue when 
+		using float-based layouts. A clearfix method is used to fix 
+		this problem by forcing the parent container to properly wrap 
+		around its floated children. This allows the layout to remain 
+		stable and predictable.</p>
+	</div>
+		
+	<footer>
+		<a href="https://citw.lcc.edu/~carbonev/citw160/">Back to HUB</a>
+	</footer>
+
+</body>
+</html>

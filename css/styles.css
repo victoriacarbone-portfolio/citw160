@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: honeydew;
+}
+
+body {
+  text-align: center;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Lucida Calligraphy", fantasy;
+  font-size: 2em;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  color: #004d00;
+  background-color: white;
+  border: 5px ridge;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 500;
+  font-size: 18px;
+  text-indent: 25px;
+  margin-bottom: 20px;
+  line-height: 2;
+  padding-inline: 50px;
+}
+
+h2 {
+  font-family: "Lucida Calligraphy", fantasy;
+  font-size: 2em;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  color: #004d00;
+  border-bottom: 5px solid;
+  border-bottom-width: thin;
+  border-top: 5px solid;
+  border-color: #004d00;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+  line-height: 2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 10px;
+  margin: 1rem 0;
+  border: double;
+  border-color: #004d00;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}

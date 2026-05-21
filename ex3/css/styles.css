@@ -1,0 +1,41 @@
+body {
+  background-color: aliceblue;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 3em;
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  color: green;
+  text-shadow: 3px 3px darkgreen;
+  background-color: white;
+  text-align: center;
+  border-block: 5px double darkblue;
+  border-inline: 5px solid darkblue;
+  margin-bottom: 60px;
+}
+
+p {
+  font-family: cursive;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  text-indent: 25px;
+  margin-bottom: 60px;
+  line-height: 2;
+  padding-inline: 100px;
+}
+
+a {
+  font-size: 20px;
+  padding-left: 50px;
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}

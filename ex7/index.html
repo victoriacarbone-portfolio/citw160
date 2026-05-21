@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 7 – Flexbox Layout</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Flexbox Layout Demo</h1>
+  
+  <div>
+	<h3>What is Flexbox?</h3>
+	<p>Flexbox, or the Flexible Box Layout, is a CSS layout system designed 
+	to make it easier to arrange elements within a container. Unlike float-based 
+	layouts, Flexbox was created specifically for layout and alignment, which makes 
+	it more predictable and easier to control.</p>
+	<p>Flexbox is considered better than floats for most layouts because it allows 
+	elements to align, space, and resize dynamically without needing clearfixes or 
+	extra hacks. It also adapts more naturally to different screen sizes, making it 
+	a strong choice for responsive design.</p>
+  </div>
+  
+  <div>
+	<h3>Flex Containers & Flex Items</h3>
+	<p>A Flexbox layout consists of a flex container and its flex items. The 
+	container is the parent element that has display: flex applied, and the 
+	flex items are the direct children inside it.</p>
+	<p>Flexbox works in one dimension at a time, either in a row or a column. 
+	The main axis is the primary direction the items are laid out, while the 
+	cross axis runs perpendicular to it. When flex-direction is set to row, the 
+	main axis runs horizontally. When it is set to column, the main axis runs 
+	vertically.</p>
+  </div>
+  
+  <h3>Flexbox Demo</h3>
+  <div class="flex-container">
+    <div class="box">
+		<h5>Section 1</h5>
+		<p>This block demonstrates how flex items align and resize within a 
+		container.</p>
+	</div>
+    <div class="box">
+		<h5>Section 2</h5>
+		<p>Flexbox distributes available space evenly across items when flex-grow 
+		is applied.</p>
+	</div>
+    <div class="box">
+		<h5>Section 3</h5>
+		<p>When the screen width changes, items can wrap to a new line if flex-wrap 
+		is enabled.</p>
+	</div>
+  </div>
+  
+  <div>
+	<h3>Flexbox Properties</h3>
+	<p>Flexbox provides several properties that control spacing and alignment. 
+	The justify-content property aligns items along the main axis, while align-items 
+	controls alignment along the cross axis. These properties make it easy to center 
+	content or distribute space evenly.</p>
+	<p>The flex-wrap property allows items to move onto a new line when there is not 
+	enough space, preventing overflow. Individual flex items can be further controlled 
+	using flex-grow, flex-shrink, and flex-basis, which determine how items resize 
+	relative to one another within the container.</p>
+  </div>
+  
+  <div>
+	<h3>Nested Flexbox</h3>
+  	<p>Flexbox containers can also be nested inside one another to create more 
+	complex layouts. In this example, a flex container is placed inside another 
+	flex container, allowing different sections of the page to be aligned 
+	independently.</p>
+	<p>Nesting Flexboxes makes it possible to build full page layouts, such as 
+	headers, main content areas, and sidebars, without relying on floats or 
+	positioning hacks.</p>
+  </div>
+  
+  <h3>Nested Flexbox Demo</h3>
+  <div class="outer-flex">
+	<div class="inner-flex">
+		<div class="inner-item">
+			<h5>Main Content</h5>
+			<p>This area represents primary page content arranged using Flexbox.</p>
+		</div>
+		<div class="inner-item">
+			<h5>Secondary Content</h5>
+			<p>This section demonstrates how multiple items can align within a 
+			nested flex container.</p>
+		</div>
+	</div>
+	<div class="outer-item">
+		<h5>Sidebar Content</h5>
+		 <p>The sidebar remains aligned beside the main content area using Flexbox 
+		 layout rules.</p>
+	</div>
+  </div>
+  
+  <div>
+	<h3>Summary</h3>
+	<p>This layout uses Flexbox to organize multiple content areas on the 
+	page. The main container controls the overall layout, while nested Flexbox 
+	sections manage alignment and spacing within individual areas.</p>
+	<p>Because Flexbox adapts to available space, the layout remains readable 
+	when the browser window is resized, demonstrating its usefulness for responsive 
+	design.</p>
+  </div>
+
+  <footer>
+	<a href="https://citw.lcc.edu/~carbonev/citw160/">Back to HUB</a>
+  </footer>
+</body>
+</html>
